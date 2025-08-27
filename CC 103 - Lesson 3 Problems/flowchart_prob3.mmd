@@ -1,0 +1,13 @@
+flowchart TD
+    A(["Start"])
+    B{{"h=0; r=0;<br>b =0; s=0;"}}
+    C[/"Input h, r"/]
+    D["s = h * r<br>b= s * 0.25"]
+    E[/"Output b"/]
+    F(["End"])
+
+        A --> B
+        B --> C
+        C --> D
+        D --> E
+        E --> F
