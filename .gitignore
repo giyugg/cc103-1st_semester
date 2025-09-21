@@ -1,0 +1,3 @@
+# only ignore the .usbfiles current directory
+.usbfiles/
+GroupProgram.java
