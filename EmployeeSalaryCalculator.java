@@ -4,18 +4,13 @@ public class EmployeeSalaryCalculator {
         Scanner input = new Scanner(System.in);
 
         // Variable declarations: Employee details
-        String employeeName;
-        String departmentCode;
-        String statusCode;
+        String employeeName, departmentCode, statusCode;
         // Variable declarations: Hour time based details
-        int hoursWorked;
-        int ratePerHour;
+        int hoursWorked, ratePerHour;
         // Variable declarations: Salary details
         double grossIncome;
         // Variable declarations: Deductions
-        double birTax;
-        double securityTax;
-        double totalDeductions;
+        double birTax, securityTax, totalDeductions;
         // Variable declarations: Net Income
         double netIncome;
 
