@@ -7,7 +7,7 @@ public class EmployeeSalaryCalculator {
         String employeeName, departmentCode, statusCode;
         // Variable declarations: Hour time based details
         int hoursWorked, ratePerHour;
-        // Variable declarations: Salary details
+        // Variable declarations: Gross Salary details
         double grossIncome;
         // Variable declarations: Deductions
         double birTax, securityTax, totalDeductions;
@@ -18,7 +18,7 @@ public class EmployeeSalaryCalculator {
         System.out.print("Enter Employee Name: ");
         employeeName = input.nextLine();
 
-        System.out.print("Enter Department Code: ");
+        System.out.print("Enter Department Code [MIS/MKT/ACT]: ");
         departmentCode = input.nextLine();
         if (departmentCode.equalsIgnoreCase("MIS")) { // Management Information Systems
             ratePerHour = 500;
@@ -40,7 +40,7 @@ public class EmployeeSalaryCalculator {
         hoursWorked = input.nextInt();
         input.nextLine(); // fix bug that skips next input
 
-        System.out.print("Enter Status Code: ");
+        System.out.print("Enter Status Code [HOF/SWD/SOD]: ");
         statusCode = input.nextLine();
         if (statusCode.equalsIgnoreCase("HOF")) { // Head of Family
             birTax = 0.1;
