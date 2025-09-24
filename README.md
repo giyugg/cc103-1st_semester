@@ -1,5 +1,5 @@
 # HELLO! I'm Kyle Acuña of BSIS 1B-G2
-This is my coding journey as I learn Java as per our subject program on Computer Programming. I will use this as my journal and archive this after my first year of studying on BSIS. 
+This is my coding journey as I learn Java through our Computer Programming subject at Bulacan State University. I will use this as my journal and archive it after my first year of studying BSIS. I also create my own personal projects here while I learn! 
 
 ## Prerequisites (or tools that I use)
 [![Git](https://img.shields.io/badge/Git-F05032?logo=git&logoColor=fff)](#)
@@ -12,7 +12,7 @@ This is my coding journey as I learn Java as per our subject program on Computer
 * Git (for commiting projects to store in Github via VSCode.)
 * Github (for tracking, storing, and acting as backup of my works.)
 * Github Copilot (just to assist with my code. Not actually relying on this, but it's good at predicting.)
-* Java Development Kit (latest)
+* Java Development Kit (latest), Java Runtime Environment
 * Live Server (VSC Marketplace, live preview of my HTML projects.)
 * Visual Studio Code, IntelliJ IDEA, and Netbeans IDE<br>Note: I use VSC and IntelliJ for personal preference then Netbeans for school requirements.
 
