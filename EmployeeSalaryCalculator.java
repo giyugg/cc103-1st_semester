@@ -33,7 +33,7 @@ public class EmployeeSalaryCalculator {
             System.out.println("Invalid Department Code");
             System.out.println("Goodbye...");
             input.close();
-            return;
+            return; // Our professor suggests that we should use System.exit(0) instead of return. This is similar to System.exit(0) don't worry.
         }
         
         System.out.print("Enter Hours Worked: ");
@@ -58,7 +58,7 @@ public class EmployeeSalaryCalculator {
             System.out.println("Invalid Status Code");
             System.out.println("Goodbye...");
             input.close();
-            return;
+            return; // Our professor suggests that we should use System.exit(0) instead of return. This is similar to System.exit(0) don't worry.
         }
 
         // Process: Salary calculations
