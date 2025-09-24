@@ -35,4 +35,5 @@ Atp, I don't know what I'm doing.<br>
 * September 24, 2025<br>
 1. I got inspired creating a calculator by [ASMR Programming](https://www.youtube.com/@AsmrProg) but I was thinking of creating a calculator app by `Java`. But it seems that creating a Java application is not on my level yet, so I decided to make it using `HTML` since I want to sharpen my learnings on `HTML`. For my current calculator project, refer to [this video](https://www.youtube.com/watch?v=sBJmRD7kNTk) if you want to also learn. My progress can be also found [here](https://github.com/giyugg/cc103-1st_semester/tree/main/html_projects/calculator).<br>
 2. Learned how to make an `issue` and `pull request` in Github. Still confused on how to do things, but I am still exploring it.<br>
-3. Created this README markdown file because I thought that I can just put my journal here. Thanks for reading if you made it here lmao. I know this is very useless, but hey! Thank you ^ - ^!
+3. Created this README markdown file because I thought that I can just put my journal here. Thanks for reading if you made it here lmao. I know this is very useless, but hey! Thank you ^ - ^!<br>
+4. Added [SwitchMath.java](https://github.com/giyugg/cc103-1st_semester/blob/main/SwitchMath.java) and coded this during our lesson. Just a practice code, not a real activity- yet.
