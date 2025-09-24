@@ -20,13 +20,13 @@ public class EmployeeSalaryCalculator {
 
         System.out.print("Enter Department Code: ");
         departmentCode = input.nextLine();
-        if (departmentCode.equals("MIS")) { // Management Information Systems
+        if (departmentCode.equalsIgnoreCase("MIS")) { // Management Information Systems
             ratePerHour = 500;
         }
-        else if (departmentCode.equals("MKT")) { // Marketing
+        else if (departmentCode.equalsIgnoreCase("MKT")) { // Marketing
             ratePerHour = 400;
         }
-        else if (departmentCode.equals("ACT")) { // Accounting
+        else if (departmentCode.equalsIgnoreCase("ACT")) { // Accounting
             ratePerHour = 550;
         }
         else {
@@ -42,15 +42,15 @@ public class EmployeeSalaryCalculator {
 
         System.out.print("Enter Status Code: ");
         statusCode = input.nextLine();
-        if (statusCode.equals("HOF")) { // Head of Family
+        if (statusCode.equalsIgnoreCase("HOF")) { // Head of Family
             birTax = 0.1;
             securityTax = 0.05;
         }
-        else if (statusCode.equals("SWD")) { // Single with Dependents
+        else if (statusCode.equalsIgnoreCase("SWD")) { // Single with Dependents
             birTax = 0.15;
             securityTax = 0.1;
         }
-        else if (statusCode.equals("SOD")) { // Single without Dependents
+        else if (statusCode.equalsIgnoreCase("SOD")) { // Single without Dependents
             birTax = 0.2;
             securityTax = 0.15;
         }
