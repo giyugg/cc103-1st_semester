@@ -60,15 +60,17 @@ public class Atm {
                 String currentPassword = "bulsucict";
                 String oldPassword;
                 String newPassword;
-                System.out.print("Enter your current password: ");
-                oldPassword = scan.next();
-                if (oldPassword.equals(currentPassword)) {
-                    System.out.print("Enter your new password: ");
-                    newPassword = scan.next();
-                    System.out.println("Your password has been changed successfully.");
-                } while (!oldPassword.equals(currentPassword)) {
-                    System.out.println("Incorrect password. Please try again.");
-                }
+
+                do {
+                    System.out.print("Enter your current password: ");
+                    oldPassword = scan.next();
+                    if (!oldPassword.equals(currentPassword)) {
+                        System.out.println("Incorrect password. Please try again.");
+                    }
+                } while (!oldPassword.equals(currentPassword));
+                System.out.print("Enter your new password: ");
+                newPassword = scan.next();
+                System.out.println("Your password has been changed successfully.");
                 break;
             }
             case "E":
