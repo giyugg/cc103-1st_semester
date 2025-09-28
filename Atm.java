@@ -20,5 +20,42 @@ public class Atm {
         System.out.println("**************************");
         System.out.print("Enter your choice: ");
         String choice = scan.next();
+
+        switch (choice) {
+            case "B":
+            case "b": { // Balance Inquiry
+                System.out.println("Your balance is PHP 10,000.");
+                break;
+            }  
+            case "W":
+            case "w": { // Withdraw
+                double withdrawAmount;
+                System.out.print("Enter amount to withdraw: PHP ");
+                withdrawAmount = scan.nextDouble();
+
+                if (withdrawAmount < 100) {
+                    System.out.println("Amount must be at least PHP 100. Please try again.");
+                }
+                while (withdrawAmount < 100) {
+                    System.out.println("You have withdrawn PHP " + withdrawAmount);
+                    break;
+                }
+            }
+            case "D":
+            case "d": { // Deposit
+                double depositAmount;
+                System.out.print("Enter amount to deposit: PHP ");
+                depositAmount = scan.nextDouble();
+
+                if (depositAmount < 100) {
+                    System.out.println("Amount must be at least PHP 100. Please try again.");
+                }
+                while (depositAmount < 100) {
+                    System.out.println("You have deposited PHP " + depositAmount);
+                    break;
+                }
+            }
+        }          
+        scan.close();
     }
 }
