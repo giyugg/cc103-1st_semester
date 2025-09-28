@@ -71,6 +71,15 @@ public class Atm {
                 }
                 break;
             }
+            case "E":
+            case "e": { // Exit
+                System.out.println("Thank you for using our ATM service. Goodbye!");
+                break;
+            }
+            default: { // Invalid choice
+                System.out.println("Invalid input... Please try again!");
+                main(args); // Loop back to the start if invalid input :>>
+            }
         }          
         scan.close();
     }
