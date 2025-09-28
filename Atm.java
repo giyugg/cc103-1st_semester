@@ -60,7 +60,6 @@ public class Atm {
                 String currentPassword = "bulsucict";
                 String oldPassword;
                 String newPassword;
-                System.out.print("Enter your current password: ");
 
                 do {
                     System.out.print("Enter your current password: ");
