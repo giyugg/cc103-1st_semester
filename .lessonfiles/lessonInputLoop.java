@@ -10,7 +10,7 @@ public class lessonInputLoop {
 
         int ctr = 0;
         while (ctr<studNum) {
-            System.out.print("Enter Name of student: ");
+            System.out.print("Enter Name of student " + (ctr+1) + ": ");
             String name = scan.nextLine();
             ctr++;
         }
