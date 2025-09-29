@@ -14,5 +14,6 @@ public class lessonCtrSum {
             ctr--;      // decrement
         }
         System.out.print("Sum: " + sum);
+        scan.close();
     }
 }
